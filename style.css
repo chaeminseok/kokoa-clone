@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:#00C6AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.board{
+    width: 410px;
+    background-color: white;
+    padding:50px 30px 20px 30px;
+
+}
+header{
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+header i{
+    position:absolute;
+    left:0;
+    top:5px;
+    font-size: 28px;
+}
+h1{
+    position:relative;
+    top:10px;   
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.mainsong{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainsong__img{
+    height: 100px;
+    width:100px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    border:2px solid black;
+    border-radius: 10%;
+}
+.mainsong__img i{
+    color:white;
+    font-size: 40px;
+}
+.mainsong__content{
+    width:50%;
+    position:relative;
+    left: -10%;
+   
+}
+.mainsong__content__title{
+
+    
+    font-weight: 700;
+    font-size:34px;
+    font-weight: 700;
+    margin-bottom:0;
+    line-height: 1.4;
+}
+.mainsong__content h5{
+    font-size: 20px;
+    opacity:0.7;
+}
+.icons{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.icons__standard{
+    width:50px;
+  height:50px;
+    border-radius: 50%;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-width: 5px;
+}
+.icons__big{
+    width:50%;
+    border-radius: 13px;
+    position: relative;
+    left:-10px;
+}
+.servesongs__standard{
+    display:flex;
+    margin-bottom: 20px;
+}
+.servsongs__img__standard{
+    height:70px;
+    width: 70px;
+    background-color: teal;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.servesongs__content h5{
+    font-size:25px;
+    font-weight: 700;
+}
+.servesongs__2__img{
+    background-color: tomato;
+}
+.servesongs__3__img{
+    background-color: orange;
+}
+.servesongs__4__img{
+    background-color: yellowgreen;
+}
