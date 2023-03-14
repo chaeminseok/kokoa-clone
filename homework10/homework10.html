@@ -12,63 +12,56 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
     />
-    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="homework10.css" />
   </head>
-
   <body>
-    <div class="board">
-      <header class="head">
+    <div class="wrapper">
+      <header>
         <i class="fas fa-times"></i>
-
-        <h1>PlayList</h1>
+        <h1>Playlist</h1>
       </header>
-
-      <div class="mainsong">
-        <div class="mainsong__img">
-          <i class="fas fa-image"></i>
-        </div>
-        <div class="mainsong__content">
-            <h3 class="mainsong__content__title">We Love   김치!</h3>
-            <h5  class="mainsong__content__author">By lynn</h5>
-        </div>
-      </div>
-      <div class="icons">
-        <div class="icons__standard icons__big">
-          <i class="fas fa-play"></i>
-        <h3>play</h3></div>
-        <div class="icons__standard"><i class="fas fa-heart"></i></div class="icons__">
-        <div class="icons__standard"><i class="fas fa-plus-circle"></i></div>
-      </div>
-      <div class="servesongs">
-        <div class="servesongs__standard">
-          <div class="servsongs__img__standard servesongs__1__img"></div>
-          
-          <div class="servesongs__content">
-            <h5>corona sucks</h5>
-            <h3>니꼬</h3>
+      <main>
+        <section class="main-song">
+          <div class="main-song__cover">
+            <i class="far fa-image fa-3x"></i>
           </div>
-        </div>
-          <div class="servesongs__standard">
-          <div class="servsongs__img__standard servesongs__2__img"></div>
-          <div class="servesongs__content">
-            <h5>corona sucks</h5>
-            <h3>니꼬</h3>
-        </div>
-        </div>
-        <div class="servesongs__standard">
-          <div class="servsongs__img__standard servesongs__3__img"></div>
-          <div class="servesongs__content">
-            <h5>corona sucks</h5>
-            <h3>니꼬</h3>
-        </div>
-        </div>
-        <div class="servesongs__standard">
-          <div class="servsongs__img__standard servesongs__4__img"></div>
-          <div class="servesongs__content">
-            <h5>corona sucks</h5>
-            <h3>니꼬</h3>
-        </div>
-        </div>
+          <div class="main-song__data">
+            <h3 class="main-song__title">We Love 김치!</h3>
+            <h5 class="main-song__author">By Lynn</h5>
+          </div>
+        </section>
+        <section class="btns">
+          <span class="btns__btn btns__btn--big">
+            <i class="fas fa-play fa-xs"></i>
+            <span>Play</span>
+          </span>
+          <span class="btns__btn"><i class="fas fa-heart"></i></span>
+          <span class="btns__btn"><i class="fas fa-plus"></i></span>
+        </section>
+        <ul class="song-list">
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+              <h5>Corona Sucks</h5>
+              <h6>니꼬</h6>
+            </div>
+          </li>
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+              <h5>Corona Sucks</h5>
+              <h6>니꼬</h6>
+            </div>
+          </li>
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+              <h5>Corona Sucks</h5>
+              <h6>니꼬</h6>
+            </div>
+          </li>
+        </ul>
+      </main>
     </div>
   </body>
 </html>
