@@ -6,7 +6,8 @@
     background-color: #fafafa;
 
     padding: 15px 0;
-    font-size:16px;
+    margin-bottom: 10px;
+    font-size:18px;
 }
 #friends-display-link i{
     color:#D5D5D5;
@@ -15,4 +16,19 @@
 #friends-display-link span{
     margin:0 7px;  
     color:#424242;
+}
+.friends-screen{
+    margin:0 var(--horizontal-space);
+}
+.friends-screen__channel__header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color:rgba(0,0,0,0.5);
+}
+
+.friends-screen__channel{
+    margin-top: 25px;
+    border-top:1px solid rgba(0,0,0,0.2);
+    padding-top: 15px;
 }
