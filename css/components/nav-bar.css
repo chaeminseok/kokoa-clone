@@ -16,17 +16,10 @@
 .nav__link{
     color: #2F363E;
     position: relative;
-    
+    text-decoration: none;
 }
 .nav__notification{
-    background-color:tomato;
-    width: 30px;
-    height:30px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 20px;
+  
     position: absolute;
     bottom: 15px;
     right:-15px;

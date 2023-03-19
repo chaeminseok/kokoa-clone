@@ -1,0 +1,8 @@
+#chat-screen{
+    background-color: #ABC1D1;
+}
+#chat-screen .alt-header{
+    position:sticky;
+    width: 100%;
+    box-sizing: border-box;
+}
