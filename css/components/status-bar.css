@@ -5,6 +5,7 @@
     position: fixed;
     top:0;
     width: 100%;
+    background-color: white;
 }
 .status-bar__column:first-child span{
     margin-right: 5px;

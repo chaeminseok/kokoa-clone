@@ -16,3 +16,15 @@
     font-size: 20px;
     margin-left: 25px;
 }
+@keyframes rotateCog{
+    from{
+        transform: :none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+
+}
+.screen-header__icons .fa-gear{
+    animation: rotateCog 1s linear infinite;
+}
