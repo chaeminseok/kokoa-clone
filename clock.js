@@ -10,5 +10,6 @@ function getClock(){
     }
     clock.innerText=`${hours}:${minutes}`;
 }
+
 getClock();
 setInterval(getClock , 1000);
